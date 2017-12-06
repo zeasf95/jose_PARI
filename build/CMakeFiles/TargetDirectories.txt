@@ -1,0 +1,4 @@
+/home/jose_ferrreira/Documentos/Aula12/build/CMakeFiles/rebuild_cache.dir
+/home/jose_ferrreira/Documentos/Aula12/build/CMakeFiles/cpfiles.dir
+/home/jose_ferrreira/Documentos/Aula12/build/CMakeFiles/edit_cache.dir
+/home/jose_ferrreira/Documentos/Aula12/build/CMakeFiles/myf.dir
