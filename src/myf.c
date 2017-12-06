@@ -71,7 +71,7 @@ pari_RefreshDrawingArea (char *widgetName, IplImage * img)
   g_object_unref (pix);		//free the pixbuf...
 }
 
-pari_UserOperation1 ()
+void pari_UserOperation1 ()
 {
   IplImage *tmp_gray = cvCreateImage (cvSize (src->width, src->height), IPL_DEPTH_8U, 1);	//aux image
   cvCvtColor (src, tmp_gray, CV_RGB2GRAY);
@@ -79,7 +79,7 @@ pari_UserOperation1 ()
   cvReleaseImage (&tmp_gray);	//free aux image
 }
 
-pari_UserOperation2 ()
+void pari_UserOperation2 ()
 {
   IplImage *tmp_gray = cvCreateImage (cvSize (dst->width, dst->height), IPL_DEPTH_8U, 1);	//aux image
   cvCvtColor (dst, tmp_gray, CV_RGB2GRAY);
